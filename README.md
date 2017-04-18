@@ -1,9 +1,14 @@
-# api documentation for  [alt (v0.18.6)](https://github.com/goatslacker/alt#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alt)
+# npmdoc-alt
+
+#### api documentation for  [alt (v0.18.6)](https://github.com/goatslacker/alt#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alt)
+
 #### A flux implementation
 
-[![NPM](https://nodei.co/npm/alt.png?downloads=true)](https://www.npmjs.com/package/alt)
+[![NPM](https://nodei.co/npm/alt.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/alt)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-alt/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-alt_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-alt/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-alt/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-alt/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-alt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-alt/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-alt/build/screenCapture.npmPackageListing.svg)
 
@@ -98,13 +103,11 @@
     "main": "lib",
     "maintainers": [
         {
-            "name": "goatslacker",
-            "email": "josh@goatslacker.com"
+            "name": "goatslacker"
         }
     ],
     "name": "alt",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/goatslacker/alt.git"
@@ -129,38 +132,6 @@
     },
     "version": "0.18.6"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module alt](#apidoc.module.alt)
-1.  [function <span class="apidocSignatureSpan">alt.</span>debug (name, alt, win)](#apidoc.element.alt.debug)
-
-
-
-# <a name="apidoc.module.alt"></a>[module alt](#apidoc.module.alt)
-
-#### <a name="apidoc.element.alt.debug"></a>[function <span class="apidocSignatureSpan">alt.</span>debug (name, alt, win)](#apidoc.element.alt.debug)
-- description and source-code
-```javascript
-function debug(name, alt, win) {
-  var key = 'alt.js.org';
-  var context = win;
-  if (!context && typeof window !== 'undefined') {
-    context = window;
-  }
-  if (typeof context !== 'undefined') {
-    context[key] = context[key] || [];
-    context[key].push({ name: name, alt: alt });
-  }
-  return alt;
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
