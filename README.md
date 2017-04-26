@@ -1,6 +1,6 @@
 # npmdoc-alt
 
-#### api documentation for  [alt (v0.18.6)](https://github.com/goatslacker/alt#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alt)
+#### basic api documentation for  [alt (v0.18.6)](https://github.com/goatslacker/alt#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alt.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alt) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alt.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alt)
 
 #### A flux implementation
 
@@ -130,7 +130,8 @@
         "transpile-cover": "babel src --out-dir lib --plugins external-helpers-2",
         "version": "npm run build"
     },
-    "version": "0.18.6"
+    "version": "0.18.6",
+    "bin": {}
 }
 ```
 
